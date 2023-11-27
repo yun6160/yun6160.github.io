@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;500&family=Quicksand:wght@300;400;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Quicksand', 'Noto Sans KR';
+}
+
+img {
+  width: 378px;
+  height: 152px;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 20px 30px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.wrap {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  height: 240px;
+  gap: 14px;
+  border: 1px solid #ebeaec;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 16px;
+  padding: 10px;
+}
+
+.btn {
+  width: -webkit-fill-available;
+  border: 1px solid rgb(179, 193, 203);
+  border-radius: 5px;
+  /* height: 4vh; */
+}
+
+.btn:hover {
+  background-color: black;
+  transition: auto;
+  color: white;
+}
